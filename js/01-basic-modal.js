@@ -4,13 +4,14 @@ const refs = {
 
 refs.openModalBtn.addEventListener("click", (ev) => {
   const btnElement = ev.target;
-  btnElement.style.boxShadow = `0px 3px 1px -2px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)`;
 
-  console.dir(btnElement.style);
+  console.dir(btnElement);
 });
 
-// refs.openModalBtn.ontransitionend = () => {
+// // refs.openModalBtn.ontransitionend = () => {
 
-// };
+// // };
 
-console.dir(refs.openModalBtn.style);
+// console.dir(refs.openModalBtn.style);
+
+// console.dir(refs.openModalBtn);
